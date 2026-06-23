@@ -45,7 +45,9 @@ Ejecuta el archivo principal:
 python main.py
 
 📁 Estructura principal del proyecto
+
 PROYECTO/
+
 ├── 📄 8 reinas.py       <-- Lógica, heurísticas e interfaz del problema de las 8 Reinas.
 
 ├── 📄 frozenlake.py     <-- Lógica, mallas dinámicas e interfaz del Frozen Lake.
