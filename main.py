@@ -27,7 +27,9 @@ class MenuPrincipal:
         
         
         # Pie de página
-        tk.Label(self.master, text="Desarrollado para la materia de IA", font=("Arial", 10, "italic"), bg="#f0f0f0", fg="#999999").pack(side=tk.BOTTOM, pady=20)
+        texto_integrantes = "Integrantes:\n- Díaz Presas Angel Aarón\n- López Cano Diego\n- Sandoval Espinoza Moisés"
+        tk.Label(self.master, text=texto_integrantes, font=("Arial", 10, "italic"), bg="#f0f0f0", fg="#999999", justify="left").pack(side=tk.BOTTOM, pady=20)
+
 
     def crear_boton(self, categoria, descripcion, archivo, color_borde):
         marco = tk.Frame(self.frame_botones, bg=color_borde, padx=2, pady=2)
