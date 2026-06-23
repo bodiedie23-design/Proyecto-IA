@@ -47,10 +47,15 @@ python main.py
 📁 Estructura principal del proyecto
 PROYECTO/
 ├── 📄 8 reinas.py       <-- Lógica, heurísticas e interfaz del problema de las 8 Reinas.
+
 ├── 📄 frozenlake.py     <-- Lógica, mallas dinámicas e interfaz del Frozen Lake.
+
 ├── 📄 Gato.py           <-- Motor minimax, poda alfa-beta e interfaz interactiva del Gato.
+
 ├── 📄 main.py           <-- Menú principal e integrador de módulos (Tkinter).
+
 ├── 📄 Sokoban.py        <-- Lógica avanzada e interfaz del Sokoban.
+
 └── 📄 README.md         <-- Documentación actual.
 
 👤 Autores y Créditos
@@ -68,3 +73,5 @@ Asignatura:
 Inteligencia Artificial
 
 Grupo: 6CM1
+
+Equipo 10
